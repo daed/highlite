@@ -5,11 +5,11 @@ This was a simple word highlighter I knocked out in a few minutes because I want
 
 Anyway, syntax is:
 
-highlite.py <search expression> <file name>
+<code>highlite.py &lt;search expression&gt; &lt;file name&gt;</code>
 
 Input piping also works:
 
-cat <filename> | highlite.py <search expression>
+<code>cat &lt;filename&gt; | highlite.py &lt;search expression&gt;</code>
 
 Far as I know regexps should work fine, though matching across multiple lines might not.  Also, it only accepts a single file right now, so no wildcarding filenames.
 
